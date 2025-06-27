@@ -14,7 +14,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg', href: '/favicon.svg' }
       ]
     },
-    baseURL: '/nuxt3-ghpages/'
+    baseURL: ''
   },
   modules: [
   ],
