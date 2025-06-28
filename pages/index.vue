@@ -1,519 +1,71 @@
-<!DOCTYPE html>
-<html lang="en" data-capo="">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Enderman &#x27;s Website</title>
-        <link rel="stylesheet" href="/_nuxt/entry.4cZbmLga.css">
-        <link rel="stylesheet" href="/_nuxt/Card.sw6Nm76f.css">
-        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/D7VRS1bc.js">
-        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/YnMNbNj3.js">
-        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/C9H416Vr.js">
-        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/DlAUqK2U.js">
-        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/bvrEs202.js">
-        <link rel="modulepreload" as="script" crossorigin href="/_nuxt/msxOOI2s.js">
-        <link rel="prefetch" as="video" href="/_nuxt/info.CJeutLe8.avif">
-        <link rel="prefetch" as="video" href="/_nuxt/defrag.CTXC3j1t.avif">
-        <link rel="prefetch" as="video" href="/_nuxt/user.D8-we1Gl.avif">
-        <link rel="prefetch" as="video" href="/_nuxt/book.DSvghs7o.avif">
-        <link rel="prefetch" as="image" type="image/png" href="/_nuxt/sky.eZV04wh2.png">
-        <link rel="prefetch" as="image" type="image/png" href="/_nuxt/particles.hqa7X4l7.png">
-        <link rel="prefetch" as="image" type="image/png" href="/_nuxt/aero.C7_YKLAY.png">
-        <link rel="prefetch" as="script" crossorigin href="/_nuxt/7VmVdpxW.js">
-        <link rel="prefetch" as="style" href="/_nuxt/error-404.CjGVuf6H.css">
-        <link rel="prefetch" as="script" crossorigin href="/_nuxt/BRgIiAoI.js">
-        <link rel="prefetch" as="style" href="/_nuxt/error-500.DFBAsgKS.css">
-        <link rel="prefetch" as="script" crossorigin href="/_nuxt/Bu58D_Ku.js">
-        <link rel="prefetch" as="video" href="/_nuxt/pearl.B8GT82lx.avif">
-        <link rel="prefetch" as="video" href="/_nuxt/logo.Bk6mFExK.avif">
-        <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="canonical" href="https://enderman.ch/">
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-        <meta name="description" content="A software engineer, a malware enthusiast and, most importantly, a weird tall creature. I have over 300K subscribers on YouTube and over 20K followers on Twitter.">
-        <meta property="og:description" content="A software engineer, a malware enthusiast and, most importantly, a weird tall creature. I have over 300K subscribers on YouTube and over 20K followers on Twitter.">
-        <meta property="og:image" content="https://enderman.ch/images/logo.png">
-        <meta property="og:url" content="https://enderman.ch">
-        <meta property="og:type" content="website">
-        <meta name="twitter:title" content="Enderman">
-        <meta name="twitter:description" content="A software engineer, a malware enthusiast and, most importantly, a weird tall creature. I have over 300K subscribers on YouTube and over 20K followers on Twitter.">
-        <meta name="twitter:image" content="https://enderman.ch/images/logo.png">
-        <meta name="twitter:card" content="summary">
-        <link rel="icon" type="image/x-icon" href="/favicon.ico">
-        <meta property="og:title" content="Enderman's Website">
-        <script type="module" src="/_nuxt/D7VRS1bc.js" crossorigin></script>
-        <meta property="og:site_name" content="enderapp">
-        <script>
-            "use strict";
-            ( () => {
-                const a = window
-                  , e = document.documentElement
-                  , c = window.localStorage
-                  , d = ["dark", "light"]
-                  , n = c && c.getItem && c.getItem("ecmatheme") || "system";
-                let l = n === "system" ? f() : n;
-                const i = e.getAttribute("data-color-mode-forced");
-                i && (l = i),
-                r(l),
-                a["__NUXT_COLOR_MODE__"] = {
-                    preference: n,
-                    value: l,
-                    getColorScheme: f,
-                    addColorScheme: r,
-                    removeColorScheme: u
-                };
-                function r(o) {
-                    const t = "" + o + ""
-                      , s = "";
-                    e.classList ? e.classList.add(t) : e.className += " " + t,
-                    s && e.setAttribute("data-" + s, o)
-                }
-                function u(o) {
-                    const t = "" + o + ""
-                      , s = "";
-                    e.classList ? e.classList.remove(t) : e.className = e.className.replace(new RegExp(t,"g"), ""),
-                    s && e.removeAttribute("data-" + s)
-                }
-                function m(o) {
-                    return a.matchMedia("(prefers-color-scheme" + o + ")")
-                }
-                function f() {
-                    if (a.matchMedia && m("").media !== "not all") {
-                        for (const o of d)
-                            if (m(":" + o).matches)
-                                return o
-                    }
-                    return "dark"
-                }
-            }
-            )();
-        </script>
-    </head>
-    <body>
-        <div id="ender-app">
-            <!--[-->
-            <div id="ender-layout" class="flex flex-col lm:justify-center lt:justify-center items-center h-full">
-                <span></span>
-                <div class="nuxt-loading-indicator" style="position:fixed;top:0;right:0;left:0;pointer-events:none;width:auto;height:3px;opacity:0;background:repeating-linear-gradient(to right,#00dc82 0%,#34cdfe 50%,#0047e1 100%);background-size:Infinity% auto;transform:scaleX(0%);transform-origin:left;transition:transform 0.1s, height 0.4s, opacity 0.4s;z-index:999999;"></div>
-                <main class="dimensions accent-background transition-ease overflow-auto flex flex-col gap-4 lm:gap-0 sm:gap-2 py-2 px-6 sm:p-4 animate__animated-sm animate__delay-1-5s animate__fadeInDown lm:rounded-none sm:rounded-xl sm:mt-8 lm:mt-0 lt:mt-0">
-                    <!--[-->
-                    <div class="absolute top-0 right-0 flex flex-col cursor-pointer select-none p-2" data-v-c9680880>
-                        <img draggable="false" src="data:image/avif;base64,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" alt="Options" width="16" height="16" data-v-c9680880>
-                    </div>
-                    <!---->
-                    <!--]-->
-                    <nav class="flex flex-row flex-wrap lm:flex-row lt:flex-row sm:flex-col lg:flex-row justify-around sm:justify-start lm:justify-between lt:justify-between lg:justify-between gap-2 lg:gap-4">
-                        <a aria-current="page" href="/" class="router-link-active router-link-exact-active flex flex-row items-center text-inherit hover:text-inherit select-none sm:m-auto lm:m-0 lt:m-0 lg:m-0" data-v-91b7ce4d>
-                            <img class="transition-all" draggable="false" width="100" height="100" src="/_nuxt/logo.Bk6mFExK.avif" alt="Endermanch" data-v-91b7ce4d>
-                            <div data-v-91b7ce4d>
-                                <h2 data-v-91b7ce4d>Enderman</h2>
-                                <hr class="accent-text accent-gradient border-0 h-px" data-v-91b7ce4d>
-                                <p data-v-91b7ce4d>official website</p>
-                            </div>
-                        </a>
-                        <ul class="flex flex-row flex-wrap items-center sm:items-start lm:items-center lt:items-center lg:items-center justify-center gap-4 m-2 sm:m-0 lm:mx-2 lt:mx-2 lg:mx-2 sm:my-2 lg:my-0">
-                            <!--[-->
-                            <li class="nav-item">
-                                <a href="/about" class="flex flex-row items-center gap-2 select-none text-inherit no-underline" data-v-e4207844>
-                                    <img draggable="false" src="/_nuxt/info.CJeutLe8.avif" alt="Information" width="32" height="32" data-v-e4207844>
-                                    <span class="hidden lm:hidden lt:hidden sm:block" data-v-e4207844>
-                                        <strong data-v-e4207844>About</strong>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/projects" class="flex flex-row items-center gap-2 select-none text-inherit no-underline" data-v-e4207844>
-                                    <img draggable="false" src="/_nuxt/defrag.CTXC3j1t.avif" alt="Blocks" width="32" height="32" data-v-e4207844>
-                                    <span class="hidden lm:hidden lt:hidden sm:block" data-v-e4207844>
-                                        <strong data-v-e4207844>Projects</strong>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/social" class="flex flex-row items-center gap-2 select-none text-inherit no-underline" data-v-e4207844>
-                                    <img draggable="false" src="/_nuxt/user.D8-we1Gl.avif" alt="Users" width="32" height="32" data-v-e4207844>
-                                    <span class="hidden lm:hidden lt:hidden sm:block" data-v-e4207844>
-                                        <strong data-v-e4207844>Socials</strong>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/blog" class="flex flex-row items-center gap-2 select-none text-inherit no-underline" data-v-e4207844>
-                                    <img draggable="false" src="/_nuxt/book.DSvghs7o.avif" alt="Book" width="32" height="32" data-v-e4207844>
-                                    <span class="hidden lm:hidden lt:hidden sm:block" data-v-e4207844>
-                                        <strong data-v-e4207844>Blog</strong>
-                                    </span>
-                                </a>
-                            </li>
-                            <!--]-->
-                        </ul>
-                    </nav>
-                    <!--[-->
-                    <!--]-->
-                    <section class="page sm:fade-mask flex-grow overflow-y-auto h-full sm:py-4 sm:pe-4">
-                        <h3>Welcome 👋</h3>
-                        <p>
-                            I &#39;m <strong>Enderman</strong>
-                            – a software engineer, a malware enthusiast and most importantly, a weird tall creature. I have over 300K subscribers on <a href="https://go.enderman.ch/youtube">YouTube</a>
-                            and over 25K followers on <a href="https://go.enderman.ch/twitter">Twitter</a>
-                            . Sometimes I wish there were 48 hours in a day. 
-                        </p>
-                        <div class="flex flex-col md:flex-row gap-4">
-                            <div class="md:basis-0 md:flex-grow-[2]">
-                                <h6>What I do</h6>
-                                <ul class="list-style-type-do">
-                                    <li>
-                                        I develop cross-platform software. My language of choice is usually <strong>C/C++</strong>
-                                        for desktop applications and any common backend stack with framework-loaded TypeScript for web. You can take a look at my code on <a href="https://go.enderman.ch/github">GitHub</a>
-                                        . 
-                                    </li>
-                                    <li>
-                                        I have the most unnecessary, yet fascinating knowledge about Microsoft Windows, and I absolutely love sharing it with my viewers in an unorthodox comedic fashion. 
-                                        <sub>
-                                            <em>*Microsoft still has not hired me as a software tester.</em>
-                                        </sub>
-                                    </li>
-                                    <li>
-                                        I research and analyze modern malware, educate computer users about it and preserve history. The repository can be found <a href="https://go.enderman.ch/repository">here</a>
-                                        . 
-                                    </li>
-                                    <li>I make videos for you to enjoy!</li>
-                                </ul>
-                            </div>
-                            <div class="md:basis-0 md:flex-grow-[1]">
-                                <h6>What I enjoy</h6>
-                                <ul class="list-style-type-enjoy">
-                                    <li>Teaching</li>
-                                    <li>Mathematics</li>
-                                    <li>Technology</li>
-                                    <li>Video Production</li>
-                                    <li>Philosophy</li>
-                                    <li>Geopolitics</li>
-                                    <li>
-                                        <a href="https://go.enderman.ch/chess">Chess</a>
-                                    </li>
-                                    <li>Solitude</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <p>
-                            <strong>Want to learn more?</strong>
-                            Find out more about me using the navigation bar!<br>
-                            <em>See you there!~</em>
-                        </p>
-                    </section>
-                    <!--[-->
-                    <footer class="lm:static sm:fixed sm:bottom-0 sm:left-0 sm:right-0 mx-auto w-auto lm:mb-0 sm:mb-2 pass-through text-center">
-                        <small class="lm:text-inherit sm:accent-text sm:drop-shadow-lg sm:transition-all lm:opacity-100 sm:opacity-25 sm:hover:opacity-100">
-                            © 2018-2025, <a class="sm:link-dark" href="https://enderman.ch">Enderman</a>
-                            . All rights reserved. <wbr>
-                            <sub class="whitespace-nowrap">β0.3.8 (2025-06-09) </sub>
-                        </small>
-                    </footer>
-                    <!--]-->
-                </main>
+<template>
+  <div id="ender-app">
+    <div id="ender-layout" class="flex flex-col justify-center items-center h-full">
+      <nav class="flex flex-wrap justify-around gap-4">
+        <a href="/" class="flex items-center text-inherit">
+          <img class="transition-all" draggable="false" width="100" height="100" src="/_nuxt/logo.Bk6mFExK.avif" alt="Endermanch" />
+          <div>
+            <h2>Enderman</h2>
+            <hr class="accent-text accent-gradient border-0 h-px" />
+            <p>official website</p>
+          </div>
+        </a>
+        <ul class="flex flex-wrap items-center justify-center gap-4 m-2">
+          <li><a href="/about" class="flex items-center gap-2 text-inherit no-underline"><img src="/_nuxt/info.CJeutLe8.avif" alt="Information" width="32" height="32" /> <span><strong>About</strong></span></a></li>
+          <li><a href="/projects" class="flex items-center gap-2 text-inherit no-underline"><img src="/_nuxt/defrag.CTXC3j1t.avif" alt="Blocks" width="32" height="32" /> <span><strong>Projects</strong></span></a></li>
+          <li><a href="/social" class="flex items-center gap-2 text-inherit no-underline"><img src="/_nuxt/user.D8-we1Gl.avif" alt="Users" width="32" height="32" /> <span><strong>Socials</strong></span></a></li>
+          <li><a href="/blog" class="flex items-center gap-2 text-inherit no-underline"><img src="/_nuxt/book.DSvghs7o.avif" alt="Book" width="32" height="32" /> <span><strong>Blog</strong></span></a></li>
+        </ul>
+      </nav>
+
+      <main class="flex flex-col gap-4 py-2 px-6 overflow-auto">
+        <section class="page flex-grow overflow-y-auto h-full">
+          <h3>Welcome 👋</h3>
+          <p>
+            I'm <strong>Enderman</strong> – a software engineer, a malware enthusiast and most importantly, a weird tall creature.
+            I have over 300K subscribers on <a href="https://go.enderman.ch/youtube">YouTube</a> and over 25K followers on <a href="https://go.enderman.ch/twitter">Twitter</a>. Sometimes I wish there were 48 hours in a day.
+          </p>
+
+          <div class="flex flex-col md:flex-row gap-4">
+            <div class="md:flex-grow-[2]">
+              <h6>What I do</h6>
+              <ul>
+                <li>I develop cross-platform software. My language of choice is usually <strong>C/C++</strong> for desktop applications and any common backend stack with framework-loaded TypeScript for web. Check my code on <a href="https://go.enderman.ch/github">GitHub</a>.</li>
+                <li>I have unnecessary yet fascinating knowledge about Microsoft Windows, and I love sharing it in an unorthodox comedic fashion. <sub><em>*Microsoft still hasn’t hired me as a software tester.</em></sub></li>
+                <li>I research and analyze modern malware, educate users, and preserve history. Repository <a href="https://go.enderman.ch/repository">here</a>.</li>
+                <li>I make videos for you to enjoy!</li>
+              </ul>
             </div>
-            <span></span>
-            <!--]-->
-        </div>
-        <div id="teleports"></div>
-        <script type="application/json" id="__NUXT_DATA__" data-ssr="true">
-            [
-                [
-                    "ShallowReactive",
-                    1
-                ],
-                {
-                    "data": 2,
-                    "state": 4,
-                    "once": 14,
-                    "_errors": 15,
-                    "serverRendered": 8,
-                    "path": 17,
-                    "pinia": 18
-                },
-                [
-                    "ShallowReactive",
-                    3
-                ],
-                {
-                },
-                [
-                    "Reactive",
-                    5
-                ],
-                {
-                    "$scolor-mode": 6,
-                    "$ssite-config": 10
-                },
-                {
-                    "preference": 7,
-                    "value": 7,
-                    "unknown": 8,
-                    "forced": 9
-                },
-                "system",
-                true,
-                false,
-                {
-                    "env": 11,
-                    "indexable": 8,
-                    "name": 12,
-                    "trailingSlash": 9,
-                    "url": 13
-                },
-                "production",
-                "enderapp",
-                "https://enderman.ch",
-                [
-                    "Set"
-                ],
-                [
-                    "ShallowReactive",
-                    16
-                ],
-                {
-                },
-                "/",
-                [
-                    "Reactive",
-                    19
-                ],
-                {
-                    "page": 20
-                },
-                {
-                    "pages": 21,
-                    "reader": 50,
-                    "animate": 52
-                },
-                [
-                    "Ref",
-                    22
-                ],
-                [
-                    "Reactive",
-                    23
-                ],
-                [
-                    24,
-                    26,
-                    32,
-                    38,
-                    44
-                ],
-                {
-                    "name": 25,
-                    "path": 17
-                },
-                "Home",
-                {
-                    "name": 27,
-                    "path": 28,
-                    "icon": 29
-                },
-                "About",
-                "/about",
-                {
-                    "src": 30,
-                    "alt": 31
-                },
-                "/_nuxt/info.CJeutLe8.avif",
-                "Information",
-                {
-                    "name": 33,
-                    "path": 34,
-                    "icon": 35
-                },
-                "Projects",
-                "/projects",
-                {
-                    "src": 36,
-                    "alt": 37
-                },
-                "/_nuxt/defrag.CTXC3j1t.avif",
-                "Blocks",
-                {
-                    "name": 39,
-                    "path": 40,
-                    "icon": 41
-                },
-                "Socials",
-                "/social",
-                {
-                    "src": 42,
-                    "alt": 43
-                },
-                "/_nuxt/user.D8-we1Gl.avif",
-                "Users",
-                {
-                    "name": 45,
-                    "path": 46,
-                    "icon": 47
-                },
-                "Blog",
-                "/blog",
-                {
-                    "src": 48,
-                    "alt": 49
-                },
-                "/_nuxt/book.DSvghs7o.avif",
-                "Book",
-                [
-                    "EmptyRef",
-                    51
-                ],
-                "false",
-                [
-                    "EmptyRef",
-                    51
-                ]
-            ]</script>
-        <script>
-            window.__NUXT__ = {};
-            window.__NUXT__.config = {
-                public: {
-                    mdc: {
-                        components: {
-                            prose: true,
-                            map: {
-                                p: "prose-p",
-                                a: "prose-a",
-                                blockquote: "prose-blockquote",
-                                "code-inline": "prose-code-inline",
-                                code: "ProseCodeInline",
-                                em: "prose-em",
-                                h1: "prose-h1",
-                                h2: "prose-h2",
-                                h3: "prose-h3",
-                                h4: "prose-h4",
-                                h5: "prose-h5",
-                                h6: "prose-h6",
-                                hr: "prose-hr",
-                                img: "prose-img",
-                                ul: "prose-ul",
-                                ol: "prose-ol",
-                                li: "prose-li",
-                                strong: "prose-strong",
-                                table: "prose-table",
-                                thead: "prose-thead",
-                                tbody: "prose-tbody",
-                                td: "prose-td",
-                                th: "prose-th",
-                                tr: "prose-tr"
-                            }
-                        },
-                        headings: {
-                            anchorLinks: {
-                                h1: false,
-                                h2: true,
-                                h3: true,
-                                h4: true,
-                                h5: false,
-                                h6: false
-                            }
-                        }
-                    },
-                    content: {
-                        locales: [],
-                        defaultLocale: "",
-                        integrity: 1749473321365,
-                        experimental: {
-                            stripQueryParameters: false,
-                            advanceQuery: false,
-                            clientDB: false
-                        },
-                        respectPathCase: false,
-                        api: {
-                            baseURL: "/api/_content"
-                        },
-                        navigation: {
-                            fields: []
-                        },
-                        tags: {
-                            p: "prose-p",
-                            a: "prose-a",
-                            blockquote: "prose-blockquote",
-                            "code-inline": "prose-code-inline",
-                            code: "ProseCodeInline",
-                            em: "prose-em",
-                            h1: "prose-h1",
-                            h2: "prose-h2",
-                            h3: "prose-h3",
-                            h4: "prose-h4",
-                            h5: "prose-h5",
-                            h6: "prose-h6",
-                            hr: "prose-hr",
-                            img: "prose-img",
-                            ul: "prose-ul",
-                            ol: "prose-ol",
-                            li: "prose-li",
-                            strong: "prose-strong",
-                            table: "prose-table",
-                            thead: "prose-thead",
-                            tbody: "prose-tbody",
-                            td: "prose-td",
-                            th: "prose-th",
-                            tr: "prose-tr"
-                        },
-                        highlight: {
-                            theme: {
-                                default: "github-dark",
-                                light: "github-light",
-                                sepia: "monokai"
-                            },
-                            langs: ["shell", "batch", "vb", "ini", "asm", "c", "cpp", "java", "python", "csv", "xml", "json", "yaml", "html", "css", "sass", "php", "js", "ts", "vue", "md", "mdc", "pascal", "lisp", "sql"],
-                            highlighter: "shiki"
-                        },
-                        wsUrl: "",
-                        documentDriven: false,
-                        host: "",
-                        trailingSlash: false,
-                        search: "",
-                        contentHead: true,
-                        anchorLinks: {
-                            depth: 4,
-                            exclude: [1]
-                        }
-                    }
-                },
-                app: {
-                    baseURL: "/",
-                    buildId: "9090d3b5-56a4-4fff-8d44-3074dc556216",
-                    buildAssetsDir: "/_nuxt/",
-                    cdnURL: ""
-                }
-            }
-        </script>
-        <script type="application/ld+json" id="schema-org-graph" data-hid="3437552">
-            {
-                "@context": "https://schema.org",
-                "@graph": [
-                    {
-                        "@id": "https://enderman.ch/#website",
-                        "@type": "WebSite",
-                        "inLanguage": "en",
-                        "name": "enderapp",
-                        "url": "https://enderman.ch"
-                    },
-                    {
-                        "@id": "https://enderman.ch/#webpage",
-                        "@type": "WebPage",
-                        "description": "A software engineer, a malware enthusiast and, most importantly, a weird tall creature. I have over 300K subscribers on YouTube and over 20K followers on Twitter.",
-                        "name": "Enderman",
-                        "url": "https://enderman.ch",
-                        "isPartOf": {
-                            "@id": "https://enderman.ch/#website"
-                        },
-                        "potentialAction": [
-                            {
-                                "@type": "ReadAction",
-                                "target": [
-                                    "https://enderman.ch"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }</script>
-    </body>
+            <div class="md:flex-grow-[1]">
+              <h6>What I enjoy</h6>
+              <ul>
+                <li>Teaching</li>
+                <li>Mathematics</li>
+                <li>Technology</li>
+                <li>Video Production</li>
+                <li>Philosophy</li>
+                <li>Geopolitics</li>
+                <li><a href="https://go.enderman.ch/chess">Chess</a></li>
+                <li>Solitude</li>
+              </ul>
+            </div>
+          </div>
+
+          <p><strong>Want to learn more?</strong> Find out more about me using the navigation bar!<br><em>See you there!~</em></p>
+        </section>
+
+        <footer class="text-center w-full">
+          <small>© 2018-2025, <a href="https://enderman.ch">Enderman</a>. All rights reserved. <sub>β0.3.8 (2025-06-09)</sub></small>
+        </footer>
+      </main>
+    </div>
+  </div>
+</template>
+
+<script setup>
+// This component has no reactive state — purely static
+</script>
+
+<style scoped>
+/* You can add scoped styles here if needed */
+</style>
