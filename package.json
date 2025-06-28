@@ -11,7 +11,8 @@
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:style && npm run lint:prettier",
-    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix"
+    "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix",
+    "deploy": "gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
     "@nuxt/content": "^2.9.0",
