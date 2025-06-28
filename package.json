@@ -27,7 +27,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "nuxt": "^3.8.1",
-    "nuxt-font-loader": "^2.3.4",
+    "nuxt-font-loader": "^2.3.5",
     "nuxt-quasar-ui": "^2.0.6",
     "prettier": "^3.0.3",
     "sass": "^1.69.5",
