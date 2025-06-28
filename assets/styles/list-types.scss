@@ -1,0 +1,25 @@
+@counter-style do {
+  system: fixed;
+  symbols: "\1F4BB" "\1F4CC" "\1F47B" "\1F4F7";
+  suffix: " ";
+}
+
+@counter-style enjoy {
+  system: fixed;
+  symbols: "\2728" "\1F4A1" "\1F4D5" "\1F30D" "\2615" "\26C4";
+  suffix: " ";
+}
+
+.list-style-type {
+  &-none {
+    list-style-type: none;
+  }
+
+  &-do {
+    list-style-type: do;
+  }
+
+  &-enjoy {
+    list-style-type: enjoy;
+  }
+}

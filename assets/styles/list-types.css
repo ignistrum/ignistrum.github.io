@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@counter-style do {
+  system: cyclic;
+  symbols: "💻" "📌" "👻" "📷";
+  suffix: " ";
+}
+@counter-style enjoy {
+  system: cyclic;
+  symbols: "💻" "📌" "👻" "📷" "♟" "⛄";
+  suffix: " ";
+}
+.list-style-type-none {
+  list-style-type: none;
+}
+.list-style-type-do {
+  list-style-type: do;
+}
+.list-style-type-enjoy {
+  list-style-type: enjoy;
+}
+
+/*# sourceMappingURL=list-types.css.map */
