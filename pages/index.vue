@@ -1,10 +1,10 @@
 <script setup lang="ts">
 const meta = {
-  title: 'Enderman',
+  title: '</ignistrum>',
   description:
-    'A software engineer, a malware enthusiast and, most importantly, a weird tall creature.',
+    'A full stack developer, and a malware enthusiast - Malware is ART!.',
   image: 'https://enderman.ch/images/logo.png',
-  url: 'https://enderman.ch/',
+  url: 'https://ignistrum.github.io/',
 }
 
 useSeoMeta({
@@ -22,7 +22,7 @@ useSeoMeta({
 })
 
 useHead({
-  title: 'Enderman',
+  title: '</ignistrum>',
   htmlAttrs: {
     lang: 'en',
   },
@@ -40,13 +40,11 @@ useHead({
   <section>
     <h3 class="alex">Welcome 👋</h3>
     <p>
-      I'm <strong>Enderman</strong> &ndash; a software engineer, a malware
-      enthusiast and most importantly, a weird tall creature. I have over 300K
-      subscribers on
-      <a class="link-hi" href="https://go.enderman.ch/youtube">YouTube</a> and
-      over 20K followers on
-      <a class="link-hi" href="https://go.enderman.ch/twitter">Twitter</a>.
-      Sometimes I wish there were 48 hours in a day.
+      I'm <strong>&lt;/ignistrum&gt;</strong> &ndash; a full stack developer, a malware
+      enthusiast and a YouTuber. You can find my channel
+      
+      <a class="link-hi" href="https://youtube.com/@ignistrum">here</a> 
+      Sometimes I wish there were 72 hours in a day.
     </p>
     <div class="row g-3">
       <div class="col-12 col-md-8">
@@ -54,46 +52,42 @@ useHead({
         <ul class="list-style-type-do">
           <li>
             I develop cross-platform software. My language of choice is usually
-            <strong>C/C++</strong> for desktop applications and any common
-            backend stack with framework-loaded TypeScript for web. You can take
-            a look at my code on
-            <a class="link-hi" href="https://go.enderman.ch/github">GitHub</a>.
+            <strong>Python, Node.js or C#</strong> for desktop applications and any common
+            backend stack with framework-loaded TypeScript or Go for web. You can take
+            a look at my code on my
+            <a class="link-hi" href="https://github.com/ignistrum">GitHub</a>.
           </li>
           <li>
-            I have the most unnecessary, yet fascinating knowledge about
-            Microsoft Windows, and I absolutely love sharing it with my viewers
-            in an unorthodox comedic fashion.
+            I have the most unnecessary knowledge about Microsoft and Windows. I love developing malware (main choice is <strong>C#</strong>), I love testing software and coding, playing chess and fixing issues with any platform.
             <sub>
-              <em>*Microsoft still has not hired me as a software tester.</em>
+              <em>*Nobody has hired me as a software tester, yet</em>
             </sub>
           </li>
           <li>
-            I research and analyze modern malware, educate computer users about
-            it and preserve history. The repository can be found
-            <a class="link-hi" href="https://go.enderman.ch/repository">here</a
+            I research about modern, and ancient malware
+            and preserve the history of malware. The repository can be found
+            <a class="link-hi" href="https://github.com/ignistrum/MalwareIsArt.git">here</a
             >.
           </li>
-          <li>I make videos for you to enjoy!</li>
+          <li>I make videos for you to enjoy!, that nobody watches</li>
         </ul>
       </div>
       <div class="col-12 col-md-4">
         <h5 class="alex">What I enjoy</h5>
         <ul class="list-style-type-enjoy">
-          <li>Teaching</li>
-          <li>Mathematics</li>
-          <li>Philosophy</li>
-          <li>Geopolitics</li>
+          <li>Linguistics</li>
+          <li>Coding</li>
+          <li></li>
           <li>
-            <a class="link-hi" href="https://go.enderman.ch/chess">Chess</a>
+            <a class="link-hi" href="https://chess.com/member/IgnistrumChess">Chess</a>
           </li>
-          <li>Solitude</li>
-        </ul>
+          </ul>
       </div>
     </div>
     <p>
       <strong>Want to learn more?</strong> Find out more about me using the
       navigation bar!<br />
-      <em>See you there!~</em>
+      <em>See you there!~ 💝</em>
     </p>
   </section>
 </template>
