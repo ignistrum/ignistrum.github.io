@@ -3,7 +3,7 @@ const meta = {
   title: '</ignistrum>',
   description:
     'A full stack developer, and a malware enthusiast - Malware is ART!.',
-  image: 'https://enderman.ch/images/logo.png',
+  image: 'https://media1.tenor.com/m/DGv3i4GdRpgAAAAd/up-in-flames-fire.gif',
   url: 'https://ignistrum.github.io/',
 }
 
@@ -57,27 +57,30 @@ useHead({
             a look at my code on my
             <a class="link-hi" href="https://github.com/ignistrum">GitHub</a>.
           </li>
+          <br>
           <li>
             I have the most unnecessary knowledge about Microsoft and Windows. I love developing malware (main choice is <strong>C#</strong>), I love testing software and coding, playing chess and fixing issues with any platform.
             <sub>
               <em>*Nobody has hired me as a software tester, yet</em>
             </sub>
           </li>
+          <br>
           <li>
             I research about modern, and ancient malware
             and preserve the history of malware. The repository can be found
             <a class="link-hi" href="https://github.com/ignistrum/MalwareIsArt.git">here</a
             >.
           </li>
-          <li>I make videos for you to enjoy!, that nobody watches</li>
+          <br>
+          <li>I make videos for you to enjoy, that nobody watches 💔</li>
         </ul>
       </div>
       <div class="col-12 col-md-4">
         <h5 class="alex">What I enjoy</h5>
         <ul class="list-style-type-enjoy">
-          <li>Linguistics</li>
+          <li>Cleaning</li>
           <li>Coding</li>
-          <li></li>
+          <li>Linguistics</li>
           <li>
             <a class="link-hi" href="https://chess.com/member/IgnistrumChess">Chess</a>
           </li>
