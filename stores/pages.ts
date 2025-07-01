@@ -1,10 +1,10 @@
 import { defineStore } from 'pinia'
 
 export const usePageStore = defineStore('page', () => {
-  const title: string = 'Enderman'
-  const description: string = 'official website'
+  const title: string = '</ignistrum>'
+  const description: string = 'A full stack developer, a malware enthusiast and a YouTuber.'
   const keywords: string =
-    'endermanch, enderman, developer, youtuber, filmmaker, artist, engineer'
+    'ignistrum, </ignistrum>, developer, youtuber, malware, malware enthusiast, angled brackets'
 
   const pages = ref([
     {
