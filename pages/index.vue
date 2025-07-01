@@ -43,7 +43,7 @@ useHead({
       I'm <strong>&lt;/ignistrum&gt;</strong> &ndash; a full stack developer, a malware
       enthusiast and a YouTuber. You can find my channel
       
-      <a class="link-hi" href="https://youtube.com/@ignistrum">here</a> 
+      <a class="link-hi" href="https://youtube.com/@ignistrum">here.</a> 
       Sometimes I wish there were 72 hours in a day.
     </p>
     <div class="row g-3">

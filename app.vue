@@ -1,9 +1,6 @@
 <script setup lang="ts">
 useHead({
-  titleTemplate: (chunk) => {
-    return !chunk || chunk === 'Enderman' ? 'Enderman' : `${chunk} – Enderman`
-  },
-})
+  })
 </script>
 
 <template>
